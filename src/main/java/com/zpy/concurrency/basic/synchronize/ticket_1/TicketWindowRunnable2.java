@@ -1,7 +1,7 @@
-package com.zpy.concurrency.basic.synchronize;
+package com.zpy.concurrency.basic.synchronize.ticket_1;
 
 /**
- * 同步方法
+ * 同步方法 （锁的是this对象）
  */
 public class TicketWindowRunnable2 implements Runnable {
 
