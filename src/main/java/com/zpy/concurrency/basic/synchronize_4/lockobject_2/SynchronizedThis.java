@@ -1,7 +1,7 @@
-package com.zpy.concurrency.basic.synchronize.lockobject_2;
+package com.zpy.concurrency.basic.synchronize_4.lockobject_2;
 
 /**
- * 同步方法锁的对象是this对象
+ * 非静态同步方法锁的对象是this对象
  * t1和t2可以几乎同时访问sychoronized方法test1和非sychoronized方法test2,不能同时访问sychoronized方法test1和sychoronized方法test3。
  */
 public class SynchronizedThis {

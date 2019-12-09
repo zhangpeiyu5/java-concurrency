@@ -1,4 +1,4 @@
-package com.zpy.concurrency.basic.synchronize.ticket_1;
+package com.zpy.concurrency.basic.synchronize_4.ticket_1;
 
 
 public class SynchronizedTest {

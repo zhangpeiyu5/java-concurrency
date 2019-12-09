@@ -1,4 +1,4 @@
-package com.zpy.concurrency.basic.synchronize.lockobject_2;
+package com.zpy.concurrency.basic.synchronize_4.lockobject_2;
 
 /**
  * 同步代码块锁的是synchronized括号内的对象

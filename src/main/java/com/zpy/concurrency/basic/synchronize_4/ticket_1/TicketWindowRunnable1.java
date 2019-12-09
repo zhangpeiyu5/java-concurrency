@@ -1,4 +1,4 @@
-package com.zpy.concurrency.basic.synchronize.ticket_1;
+package com.zpy.concurrency.basic.synchronize_4.ticket_1;
 
 /**
  * 同步代码块 （锁的是synchronized括号中的对象）
