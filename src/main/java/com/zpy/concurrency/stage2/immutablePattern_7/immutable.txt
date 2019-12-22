@@ -1,0 +1,2 @@
+1.不可变对象一定是线程安全的；（不可变对象是没有机会修改其属性的，类本身是final，属性也全是final的，如：String类，Integer类）
+2.可变对象不一定的线程不安全的；（如：StringBuffer是可变对象，但是线程安全的，加了synchronized锁）
