@@ -1,4 +1,4 @@
-package com.zpy.concurrency.stage2.producer_consumer_9;
+package com.zpy.concurrency.stage2.producer_consumer_10;
 
 public class Message {
     private String data;
