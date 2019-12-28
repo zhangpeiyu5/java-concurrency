@@ -1,5 +1,8 @@
 package com.zpy.concurrency.stage1.create_1;
 
+/**
+ * 方法一：继承Thread类，重写run方法
+ */
 public class TryThread {
     public static void main(String[] args) {
         new Thread("Thread1") {
