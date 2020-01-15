@@ -12,18 +12,18 @@ import java.util.concurrent.ArrayBlockingQueue;
  * 3）阻塞队列：多线程访问竞争资源时，当竞争资源已经被某个线程获取时，其他要获取该竞争资源的线程要阻塞等待。并且采用先进先出的方式。
  */
 public class ArrayBlockingQueueDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         ArrayBlockingQueue<String> arrayBlockingQueue = new ArrayBlockingQueue<>(5);
         System.out.println("增加值之前" + arrayBlockingQueue.size());
-        for (int i = 0; i < 5; i++) {
-            arrayBlockingQueue.add(i + "");
+        for (int i = 0; i < 6; i++) {
+            arrayBlockingQueue.put(i + "");   //i=5时，阻塞等待插入
         }
         System.out.println("增加值之后" + arrayBlockingQueue.size());
         System.out.println(arrayBlockingQueue.toString());
 
         System.out.println("取值开始：");
         for (int i = 0; i < 5; i++) {
-            System.out.println("取出的值为：" + arrayBlockingQueue.poll());
+            System.out.println("取出的值为：" + arrayBlockingQueue.take());
         }
     }
 }
